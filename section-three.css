@@ -1,0 +1,127 @@
+/* sectionThreee */
+.content-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.img-container {
+  padding: 15px;
+}
+.section-three-icon {
+  border: 1px solid red;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+}
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+  padding: 15px;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.headline {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.subheadline {
+  font-size: 20px;
+  color: #f44242;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Stack columns on smaller screens */
+  }
+
+  .text-container,
+  .img-container {
+    text-align: center; /* Center text and image on smaller screens */
+  }
+
+  .headline {
+    font-size: 24px;
+  }
+
+  .subheadline {
+    font-size: 18px;
+  }
+}
+.video-icon {
+  font-size: 1.2rem; 
+  color: #e03c33; 
+}
+
+.section-three-btn {
+  font-size: 16px;
+  width: 120px; /* Default width for larger screens */
+  border: none;
+  background-color: #e03c33;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 7vh;
+  border-radius: 5px;
+}
+
+.section-three-btn:hover {
+  background-color: #4f4f4f;
+}
+
+.section-three-btn .btn-txt {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .section-three-btn {
+      width: 200px; /* Smaller width on medium screens */
+      padding: 10px 20px;
+      font-size: 14px;
+  }
+  
+  .section-three-btn .btn-txt {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-three-btn {
+      width: 150px; /* Smaller width on small screens */
+      padding: 8px 16px;
+      height: 6vh;
+      font-size: 12px;
+  }
+
+  .section-three-btn .btn-txt {
+      font-size: 12px;
+  }
+}
+
